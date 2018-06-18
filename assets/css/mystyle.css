@@ -1,0 +1,70 @@
+pre {
+	margin-left: 0px;
+	width: 600px;
+
+	/* font-family: Arial,Helvetica,sans-serif; */
+	font-size: 11;
+	word-wrap: break-word;
+	/* white-space: pre-wrap; */
+  		/* white-space: -moz-pre-wrap; /* Mozilla, supported since 1999 */
+  		/* white-space: -pre-wrap; /* Opera */
+  		/* white-space: -o-pre-wrap; /* Opera */
+}
+
+canvas {
+	margin-top:60px;
+}
+
+h1 {
+	font-family: "Courier New";
+    display: block;
+    font-size: 1em;
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: normal;
+}
+
+img {
+	margin-top: 60px;
+	margin-right: 120px;
+}
+
+p {
+	font-family: "Courier New";
+	font-size: 14;
+	word-wrap: break-word;
+
+	position:relative;
+	margin-left:60px;
+	margin-top:0px;
+	margin-right:60px;
+	margin-bottom:4px;
+
+	padding:0px;
+
+	white-space: pre-wrap; */
+            white-space: -moz-pre-wrap; /* Mozilla, supported since 1999 */
+            white-space: -pre-wrap; /* Opera */
+            white-space: -o-pre-wrap; /* Opera */
+}
+
+canvas {
+	width: 600px;
+	height: 150px;
+}
+
+a:link {
+	color: #d31a02;
+	text-decoration: none;
+}
+
+a:visited {
+    color: #d31a02;
+}
+
+a:hover {
+	color: #d31a02;
+	background-color: #C5CECE;
+}
