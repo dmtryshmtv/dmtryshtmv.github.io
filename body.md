@@ -30,7 +30,7 @@ I am broadly interested in information theory, stochastic processes, and statist
 
 # Fun projects.
 
-In my free time I like to play guitar: I like metal and hosted the local radio show [HEAVY](http://kdrt.org/program/heavy) with George Mossessian.
+In my free time I like to play guitar: I like [metal](https://www.youtube.com/watch?v=bUVcnsiRQ4M) and have hosted the local radio show [HEAVY](http://kdrt.org/program/heavy) with George Mossessian. You can hear some recordings I made in high school [here](https://soundcloud.com/braveyoungtimes) and see a cover video [here](https://www.youtube.com/watch?v=jtcjUgCWa8U).
 
 I also read science fiction and literature: I recently read Do Androids Dream of Electric Sheep and Zorba the Greek.
 
