@@ -42,6 +42,6 @@ While taking a year off between undergrad and grad school I fiddled with d3.js a
 
 # Links of interest.
 
-Someone made Conway's Game of Life inside the Conway's Game of Life: [that makes me very happy](https://www.youtube.com/watch?v=QtJ77qsLrpw).
+Someone made Conway's Game of Life inside Conway's Game of Life: [that makes me very happy](https://www.youtube.com/watch?v=QtJ77qsLrpw). Relatedly, [this](https://www.youtube.com/watch?v=xF--1XdcOeM) self-expanding Factorio base is very satisfying.
 
-I have enjoyed reading blogs such as [Ribbon Farm](https://www.ribbonfarm.com/2017/08/17/the-premium-mediocre-life-of-maya-millennial/), [LessWrong](https://www.lesswrong.com/posts/QJRo5HZp9ZdzoK7x3/beware-social-coping-strategies), and [SlateStarCodex](http://slatestarcodex.com/2017/03/24/guided-by-the-beauty-of-our-weapons/).
+I have enjoyed reading blogs such as [Ribbon Farm](https://www.ribbonfarm.com/2017/08/17/the-premium-mediocre-life-of-maya-millennial/), [LessWrong](https://www.lesswrong.com/posts/QJRo5HZp9ZdzoK7x3/beware-social-coping-strategies), and [SlateStarCodex](http://slatestarcodex.com/2017/03/24/guided-by-the-beauty-of-our-weapons/). Those links go to particular posts that gave me a lot to think about. Politically, I aim to steer clear of political extremism, while maintaining the need for coordinated action to correct large institutions.
