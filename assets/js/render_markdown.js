@@ -16,10 +16,12 @@
 //     rawFile.send(null);
 // }
 
-var target = document.getElementById('page_body'),
-  converter = new showdown.Converter();
+function render_markdown(element_id,file_name) {
+    var target = document.getElementById(element_id),
+      converter = new showdown.Converter();
 
-fetch('./body.md')
-    .then(response => response.text())
-    .then(text => converter.makeHtml(text))
-    .then(html => target.innerHTML = html)
+    fetch(file_name)
+        .then(response => response.text())
+        .then(text => converter.makeHtml(text))
+        .then(html => target.innerHTML = html)
+}
