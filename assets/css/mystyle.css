@@ -11,10 +11,6 @@ pre {
   		/* white-space: -o-pre-wrap; /* Opera */
 }
 
-canvas {
-	margin-top:60px;
-}
-
 h1 {
 	font-family: "Courier New";
     display: block;
@@ -51,6 +47,7 @@ p {
 }
 
 canvas {
+	margin-top:60px;
 	width: 600px;
 	height: 150px;
 }

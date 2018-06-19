@@ -8,8 +8,6 @@ Office in MSB2127.
 
 Email is (first name initial + last name full) @ ucdavis.
 
-I like [metathings](https://www.youtube.com/watch?v=QtJ77qsLrpw).
-
 # Professional information.
 
 My CV can be found [here](assets/DmitryShemetovCV.pdf) (updated: June 2018).
@@ -32,12 +30,18 @@ I am broadly interested in information theory, stochastic processes, and statist
 
 In my free time I like to play guitar: I like [metal](https://www.youtube.com/watch?v=bUVcnsiRQ4M) and have hosted the local radio show [HEAVY](http://kdrt.org/program/heavy) with George Mossessian. You can hear some recordings I made in high school [here](https://soundcloud.com/braveyoungtimes) and see a cover video [here](https://www.youtube.com/watch?v=jtcjUgCWa8U).
 
-I also read science fiction and literature: I recently read Do Androids Dream of Electric Sheep and Zorba the Greek.
+I also read science fiction and literature: I recently read "Do Androids Dream of Electric Sheep" and "Zorba the Greek".
 
 I meditate as part of the local [Bird Path Sangha](https://birdpathsangha.wordpress.com/) (we sit on Tuesdays and welcome all): __________.
 
-[Spring 2018] Made a [Twitter bot](https://www.twitter.com/fromthehexagons) that generates "poetry" (by senselessly mashing together poems scarped from a site).
+In spring 2018, I made a [Twitter bot](https://www.twitter.com/fromthehexagons) that generates "poetry" (by senselessly mashing together poems scraped from a site).
 
-[Summer 2017] Made a [Twitter bot](https://www.twitter.com/break_words1) that misspells (almost) every word in the English language.
+One evening at Los Alamos, I made a [Twitter bot](https://www.twitter.com/break_words1) that misspells (almost) every word in the English language.
 
-[Summer 2012] Made a [Javascript animation](https://dshemetov.github.io/voronoi-centroidal) of Lloyd's algorithm for generating a centroidal Voronoi tesselation using d3.js.
+While taking a year off between undergrad and grad school I fiddled with d3.js and made a [Javascript animation](https://dshemetov.github.io/voronoi-centroidal) of Lloyd's algorithm for generating a centroidal Voronoi tesselation.
+
+# Links of interest.
+
+Someone made Conway's Game of Life inside the Conway's Game of Life: [that makes me very happy](https://www.youtube.com/watch?v=QtJ77qsLrpw).
+
+I have enjoyed reading blogs such as [Ribbon Farm](https://www.ribbonfarm.com/2017/08/17/the-premium-mediocre-life-of-maya-millennial/), [LessWrong](https://www.lesswrong.com/posts/QJRo5HZp9ZdzoK7x3/beware-social-coping-strategies), and [SlateStarCodex](http://slatestarcodex.com/2017/03/24/guided-by-the-beauty-of-our-weapons/).
