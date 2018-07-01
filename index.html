@@ -1,43 +1,28 @@
 <html>
 <head>
-
-
 	<!-- JAVASCRIPT AND STYLE -->
 	<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
 	<script src="./assets/js/jquery.js"></script>
-	<script src="./assets/js/paper.js"></script>
-	<script src="./assets/js/codemirror.js"></script>
-	<script src="./assets/js/scripts.js"></script>
 	<script src="./assets/js/showdown.min.js"></script>
 	<script src="./assets/js/render_markdown.js"></script>
+	</script>
 	<link rel="stylesheet" type="text/css" href="./assets/css/mystyle.css">
-
 
 	<title>Dmitry Shemetov</title>
 
 </head>
 <body>
-
 	<!-- PICTURE -->
 	<img src="./assets/dmitry.jpg" style="float:right;width:450px;height:400px;">
 
-
 	<!-- RANDOM WALKER ANIMATION -->
-	<div class="paperscript">
-	<div class="buttons">
-	<div class="button run"></div>
-	</div>
-	<script src="./assets/js/gamblers_ruin.js" type="text/paperscript" canvas="canvas-1">
-	</script>
-	<canvas id="canvas-1"></canvas>
-	</div>
+	<canvas id="canvas" height="50" width="50"></canvas>
+	<script src="./assets/js/random_walkers.js"></script>
 
 	<!-- RENDERED BODY -->
 	<div id="page_body"></div>
 	<script>
 		render_markdown('page_body','./body.md')
 	</script>
-
-
 </body>
 </html>

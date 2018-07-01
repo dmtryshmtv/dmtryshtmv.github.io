@@ -66,10 +66,12 @@ p {
 }
 
 canvas {
+	height: 300px;
+	width: 300px;
 	margin-top:60px;
-	width: 600px;
-	height: 150px;
 }
+
+
 
 a:link {
 	color: #d31a02;
