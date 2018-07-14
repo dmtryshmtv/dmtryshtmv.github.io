@@ -8,7 +8,7 @@ In my free time I like to play guitar, [metal guitar](https://www.youtube.com/wa
 
 I recently read "Do Androids Dream of Electric Sheep" and "Zorba the Greek". I love discussing books with people, so feel free to tell me about books you've read recently.
 
-I meditate as part of the local [Bird Path Sangha](https://birdpathsangha.wordpress.com/) (we sit on Tuesdays and welcome all): \_\_\_\_\_\_\_\_\_\_. We are affiliated with the [Ring of Bone](http://www.ringofbonezendo.org/) community. I have also learned a lot from reading Shinzen Young and Daniel Ingram.
+I meditate as part of the local [Bird Path Sangha](https://birdpathsangha.wordpress.com/) (we sit on Tuesdays and welcome all). We are affiliated with the [Ring of Bone](http://www.ringofbonezendo.org/) community. I have learned a lot from the writings of Shinzen Young and Daniel Ingram on meditation.
 
 I like to mess around with coding projects.
 - In the Fall of 2017, I attempted to make a [simple memory editor](https://github.com/dshemetov/simple_memory_editor) for a video game. I managed to make a toy program that changed the memory in another toy program 20% of the time. I know, wat? If you have insight into how vm\_read and vm\_write _actually_ work and about memory protection, I would love to pick your brains!
