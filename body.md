@@ -4,7 +4,7 @@ Graduate student in applied mathematics at UCDavis.
 
 Year six.
 
-Office in MSB2127.
+Office in MSB3123.
 
 Email is (first name initial + last name full) @ ucdavis.
 
@@ -22,10 +22,8 @@ I am broadly interested in information theory, stochastic processes, and statist
 
 [June 2018] I passed my qualifying exam! I defended a project proposal titled "Towards Statistical Limits in Hierarchical Communication".
 
-[Summer 2017] Worked at Los Alamos on parameter learning in models of power transmission. Our project paper was accepted to [PSCC2018](www.pscc2018.net): ["Online Learning of Power Transmission Dynamics"](https://arxiv.org/abs/1710.10021). Joint work with Marc Vuffray and Andrey Lokhov.
+[Summer 2017] I worked at Los Alamos National Lab with Marc Vuffray and Andrey Lokhov on parameter learning in models of power transmission. Our project paper was accepted to [PSCC2018](www.pscc2018.net): ["Online Learning of Power Transmission Dynamics"](https://arxiv.org/abs/1710.10021).
 
-[Summer 2016] Analyzed times series data of moving monkeys with various measures of complexity including entropy rate, statistical complexity, and excess entropy. Joint work with Kelly Finn.
+[Summer 2016] Kelly Finn and I analyzed times series data of moving monkeys using various measures of complexity including entropy rate, statistical complexity, and excess entropy.
 
-[2016] Worked on developing a distance measure between memoryful stochastic processes modeled by Hidden Markov Models. Considered from probability measures, information theoretic, and computational mechanical perspectives. Joint work with James Crutchfield.
-
-[2014-2016] Studied various approaches to inferring stochastic processes with memory, modeled with Hidden Markov Models. Joint work with James Crutchfield.
+[2014-2016] I explored stochastic processes with memory, modeled by Hidden Markov Models. I studied the information theoretic content of discrete-state discrete-time stochastic processes and compared methods to statistically learn such processes. I was supervised by James Crutchfield.
