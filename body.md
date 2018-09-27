@@ -22,7 +22,7 @@ I am broadly interested in information theory, stochastic processes, and statist
 
 [June 2018] I passed my qualifying exam! I defended a project proposal titled "Towards Statistical Limits in Hierarchical Communication".
 
-[Summer 2017] I worked at Los Alamos National Lab with [Marc Vuffray](https://cnls.lanl.gov/External/people/Marc_Vuffray.php) and [Andrey Lokhov](http://lptms.u-psud.fr/andrey-lokhov/) on parameter learning in models of power transmission. Our project paper was presented at [PSCC2018](https://pscc2018.net) - "Online Learning of Power Transmission Dynamics". [[Arxiv]](https://arxiv.org/abs/1710.10021), [[IEEE]](https://ieeexplore.ieee.org/document/8442720/).
+[Summer 2017] I worked at Los Alamos National Lab with [Marc Vuffray](https://cnls.lanl.gov/External/people/Marc_Vuffray.php) and [Andrey Lokhov](http://lptms.u-psud.fr/andrey-lokhov/) on parameter learning in models of power transmission. Our project paper was presented at [PSCC2018](https://pscc2018.net): "Online Learning of Power Transmission Dynamics", [[Arxiv]](https://arxiv.org/abs/1710.10021), [[IEEE]](https://ieeexplore.ieee.org/document/8442720/).
 
 [Summer 2016] Kelly Finn and I analyzed times series data of moving monkeys using various measures of complexity including entropy rate, statistical complexity, and excess entropy.
 
