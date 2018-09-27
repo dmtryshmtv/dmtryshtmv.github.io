@@ -16,7 +16,7 @@ My CV can be found [here](assets/DmitryShemetovCV.pdf) (updated: June 2018).
 
 # Research interests.
 
-I am broadly interested in information theory, stochastic processes, and statistical learning with a constrained communication component. I am studying these with the advice of [James Sharpnack](https://jsharpna.github.io/). My work involves a blend of theory and computation.
+I am broadly interested in information theory, stochastic processes, and statistical learning with a constrained communication component. I am studying these with [James Sharpnack's](https://jsharpna.github.io/) advice. My work involves a blend of theory and computation.
 
 # Research work.
 
