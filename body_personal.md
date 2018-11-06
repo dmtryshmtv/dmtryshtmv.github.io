@@ -2,7 +2,7 @@
 
 Back to the [professional page](https://dshemetov.github.io/).
 
-# Fun.
+# Things.
 
 In my free time I like to play guitar, [metal guitar](https://www.youtube.com/watch?v=bUVcnsiRQ4M) in particular. George Mossessian and I hosted a local radio show [HEAVY](http://kdrt.org/program/heavy) back in 2016. If you want, you can listen to some recordings I made in high school [here](https://soundcloud.com/braveyoungtimes) or watch a video cover [here](https://www.youtube.com/watch?v=jtcjUgCWa8U).
 

@@ -10,9 +10,11 @@ Email is (first name initial + last name full) @ ucdavis.
 
 A little about me [personally](personal.html).
 
+This page last updated: November 6th, 2018.
+
 # Professional information.
 
-My CV can be found [here](assets/DmitryShemetovCV.pdf) (updated: June 2018).
+My CV can be found [here](assets/DmitryShemetovCV.pdf) (may be out of date).
 
 # Research interests.
 
