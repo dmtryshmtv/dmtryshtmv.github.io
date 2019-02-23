@@ -10,15 +10,15 @@ Email is (first name initial + last name full) @ ucdavis.
 
 A little about me [personally](personal.html).
 
-This page last updated: Feb 12th, 2018.
+This page last updated: Feb 22nd, 2019.
 
 # Professional information.
 
-My CV can be found [here](assets/DmitryShemetovCV.pdf) (updated: June 2018).
+My CV can be found [here](assets/DmitryShemetovCV.pdf) (updated: Feb 22nd, 2019).
 
 # Research interests.
 
-I am broadly interested in information theory, stochastic processes, and statistical learning with a constrained communication component. I am studying these with [James Sharpnack's](https://jsharpna.github.io/) advice. My work involves a blend of theory and computation.
+I am broadly interested in distributed machine learning with memory constraints and information theory. I am studying these with [James Sharpnack's](https://jsharpna.github.io/) advice. My work involves a blend of theory and computation.
 
 # Teaching.
 
