@@ -18,22 +18,23 @@ pre {
 h1 {
 	font-family: "Courier New";
     display: block;
-    font-size: 2em;
+    font-size: 1.2em;
     margin-top: 1.33em;
     margin-bottom: 1.33em;
     margin-left: 0;
     margin-right: 0;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 h2 {
 	font-family: "Courier New";
     display: block;
-    font-size: 1.5em;
+    font-size: 1.1em;
     margin-top: 1.33em;
     margin-bottom: 1.33em;
     margin-left: 0;
     margin-right: 0;
+	font-weight: normal;
     font-style: italic;
 }
 

@@ -2,7 +2,7 @@
 
 ## Winter Quarter
 
-[3/5/19] presents on Lecture 7 of [^9]. Topics include maximum entropy density estimation, information projection, and the duality of maximum entropy with maximum likelihood estimation. 
+[3/5/19] Tong Yitang presents on Lecture 7 of [^9]. Topics include maximum entropy density estimation, information projection, and the duality of maximum entropy with maximum likelihood estimation.
 
 [2/26/19] David Weber presents on Lecture 6 of [^9]. Topics include graphical models.
 
@@ -37,6 +37,8 @@
 [10/05/2018] Dmitry Shemetov presents the foundational material from Chapter 2 "Entropy, Relative Entropy, Mutual Information" of [^1].
 
 [9/28/2018] Organizing meeting.
+
+## References
 
 [^1]: T. Cover, J. Thomas, "Elements of Information Theory"
 [^2]: A. Tsybakov, "Introduction to Nonparametric Estimation"
