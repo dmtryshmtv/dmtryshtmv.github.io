@@ -26,7 +26,7 @@ I am broadly interested in distributed machine learning with memory constraints 
 
 # Academic work.
 
-[Fall - Winter 2019] I organized the reading group ["Information Theory and Statistics"](https://groups.google.com/forum/#!forum/information-theory-and-statistics-reading-group) in the math department.
+[Fall - Winter 2019] I organized the reading group ["Information Theory and Statistics"](ITSRG.html) in the math department.
 
 [July 2018] I gave a talk on ["Statistical Limits in Hierarchical Communication"](http://meetings.siam.org/sess/dsp_talk.cfm?p=94861) in the Student Chapter Presentations section at the [2018 SIAM Annual Meeting](https://www.siam.org/Conferences/CM/Main/an18) in Portland, Oregon.
 
