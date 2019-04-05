@@ -1,0 +1,23 @@
+<html>
+<head>
+	<!-- JAVASCRIPT AND STYLE -->
+	<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+	<script src="./assets/js/jquery.js"></script>
+	<script src="./assets/js/showdown.min.js"></script>
+	<script src="./assets/js/render_markdown.js"></script>
+	</script>
+	<link rel="stylesheet" type="text/css" href="./assets/css/mystyle.css">
+
+	<title>Dmitry Shemetov</title>
+</head>
+<body>
+	<!-- PICTURE -->
+	<!-- <img src="./assets/dmitry.jpg" style="float:right;width:450px;height:400px;"> -->
+
+	<!-- RENDERED BODY -->
+	<div id="page_body"></div>
+	<script>
+		render_markdown('page_body','./ITSRG.md')
+	</script>
+</body>
+</html>
