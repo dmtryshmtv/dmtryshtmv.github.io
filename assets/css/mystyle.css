@@ -1,4 +1,5 @@
 body {
+	font-family: 'Spectral', serif;
 	width: 800px;
 }
 
@@ -7,35 +8,27 @@ pre {
 	width: 600px;
 
 	/* font-family: Arial,Helvetica,sans-serif; */
-	font-size: 11;
 	word-wrap: break-word;
 	/* white-space: pre-wrap; */
-  		/* white-space: -moz-pre-wrap; /* Mozilla, supported since 1999 */
-  		/* white-space: -pre-wrap; /* Opera */
-  		/* white-space: -o-pre-wrap; /* Opera */
+	/* white-space: -moz-pre-wrap; /* Mozilla, supported since 1999 */
+	/* white-space: -pre-wrap; /* Opera */
+	/* white-space: -o-pre-wrap; /* Opera */
 }
 
 h1 {
-	font-family: "Courier New";
     display: block;
-    font-size: 1.2em;
     margin-top: 1.33em;
     margin-bottom: 1.33em;
     margin-left: 0;
     margin-right: 0;
-    font-weight: normal;
 }
 
 h2 {
-	font-family: "Courier New";
     display: block;
-    font-size: 1.1em;
     margin-top: 1.33em;
     margin-bottom: 1.33em;
     margin-left: 0;
     margin-right: 0;
-	font-weight: normal;
-    font-style: italic;
 }
 
 img {
@@ -46,8 +39,6 @@ img {
 }
 
 li {
-	font-family: "Courier New";
-	font-size: 14;
 	word-wrap: break-word;
 
 	position:relative;
@@ -64,15 +55,13 @@ li {
 }
 
 p {
-	font-family: "Courier New";
-	font-size: 14;
 	word-wrap: break-word;
 
 	position:relative;
 	margin-left: 20px;
 	margin-top: 0px;
 	margin-right: 40px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	padding: 0px;
 
 	white-space: pre-wrap;
