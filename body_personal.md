@@ -16,5 +16,5 @@ Sometimes I do code projects:
 
 # Internet things that make me happy
 
-- [Conway's Game of Life inside Conway's Game of Life.](https://www.youtube.com/watch?v=QtJ77qsLrpw).
+- [Conway's Game of Life inside Conway's Game of Life.](https://www.youtube.com/watch?v=QtJ77qsLrpw)
 - [A self-expanding Factorio base.](https://www.youtube.com/watch?v=xF--1XdcOeM)
