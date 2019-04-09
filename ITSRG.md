@@ -2,41 +2,41 @@
 
 ## Winter Quarter
 
-[3/5/2019] Tong Yitang presents on Lecture 7 of [^9]. Topics include maximum entropy density estimation, information projection, and the duality of maximum entropy with maximum likelihood estimation.
+- [3/5/2019] Tong Yitang presents on Lecture 7 of [^9]. Topics include maximum entropy density estimation, information projection, and the duality of maximum entropy with maximum likelihood estimation.
 
-[2/26/2019] David Weber presents on Lecture 6 of [^9]. Topics include graphical models.
+- [2/26/2019] David Weber presents on Lecture 6 of [^9]. Topics include graphical models.
 
-[2/19/2019] David Weber and Dmitry Shemetov present on Lecture 6 of [^9]. Topics include mutual information estimators and applications of mutual information to machine learning.
+- [2/19/2019] David Weber and Dmitry Shemetov present on Lecture 6 of [^9]. Topics include mutual information estimators and applications of mutual information to machine learning.
 
-[2/12/2019] Dmitry Shemetov presents on Lecture 4 and 5 of [^9]. Topics include properties of submodular functions, maximizing submodular funcions, and an information theoretic clustering algorithm [^11].
+- [2/12/2019] Dmitry Shemetov presents on Lecture 4 and 5 of [^9]. Topics include properties of submodular functions, maximizing submodular funcions, and an information theoretic clustering algorithm [^11].
 
-[01/29/2019] Dmitry Shemetov presents on Lecture 3 of [^9]. Topics include the data processing inequality, submodular functions, submodularity of mutual information, maximizing submodular functions, and an application of sensor placement [^10].
+- [01/29/2019] Dmitry Shemetov presents on Lecture 3 of [^9]. Topics include the data processing inequality, submodular functions, submodularity of mutual information, maximizing submodular functions, and an application of sensor placement [^10].
 
-[01/22/2019] David Weber revisits [^5] and presents on [^8]. Topics include estimating mutual information.
+- [01/22/2019] David Weber revisits [^5] and presents on [^8]. Topics include estimating mutual information.
 
-[01/15/2019] Cong Xu presents on Chapter 5 "Data Compression" of [^1].
+- [01/15/2019] Cong Xu presents on Chapter 5 "Data Compression" of [^1].
 
 ## Fall Quarter
 
-[12/13/2018] Dmitry Shemetov presents an introduction to some work by Katalin Marton [^6]: the blowing up lemma [^7], single-letter characterization, Ornstein's copying lemma, and Talagrand's theorem.
+- [12/13/2018] Dmitry Shemetov presents an introduction to some work by Katalin Marton [^6]: the blowing up lemma [^7], single-letter characterization, Ornstein's copying lemma, and Talagrand's theorem.
 
-[12/07/2018] David Weber lays the foundations with Chapter 8 "Differential Entropy" of [^1] and then presents on "Estimating Mutual Information" [^5].
+- [12/07/2018] David Weber lays the foundations with Chapter 8 "Differential Entropy" of [^1] and then presents on "Estimating Mutual Information" [^5].
 
-[11/29/2018] Yiqun Shao presents on [^4].
+- [11/29/2018] Yiqun Shao presents on [^4].
 
-[11/09/2018] Stephen Sheng presents on [^3].
+- [11/09/2018] Stephen Sheng presents on [^3].
 
-[11/02/2018] Group read of Chapter 11 "Information Theory and Statistics" of [^1].
+- [11/02/2018] Group read of Chapter 11 "Information Theory and Statistics" of [^1].
 
-[10/26/2018] Group read of Chapter 6 "Gambling and Data Compression" of [^1].
+- [10/26/2018] Group read of Chapter 6 "Gambling and Data Compression" of [^1].
 
-[10/19/2018] Dmitry Shemetov presents on Chapter 2 "Lower bounds on minimax risk" of [^2].
+- [10/19/2018] Dmitry Shemetov presents on Chapter 2 "Lower bounds on minimax risk" of [^2].
 
-[10/12/2018] A problem solving session dedicated to Chapter 2 of [^1].
+- [10/12/2018] A problem solving session dedicated to Chapter 2 of [^1].
 
-[10/05/2018] Dmitry Shemetov presents the foundational material from Chapter 2 "Entropy, Relative Entropy, Mutual Information" of [^1].
+- [10/05/2018] Dmitry Shemetov presents the foundational material from Chapter 2 "Entropy, Relative Entropy, Mutual Information" of [^1].
 
-[9/28/2018] Organizing meeting.
+- [9/28/2018] Organizing meeting.
 
 ## References
 
