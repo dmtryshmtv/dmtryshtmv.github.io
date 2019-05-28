@@ -29,4 +29,4 @@ I am broadly interested in information theory and statistics with memory constra
 
 General [non-work nerdery](personal.html).
 
-This page was last updated April 8th, 2019.
+This page was last updated May 28th, 2019.
