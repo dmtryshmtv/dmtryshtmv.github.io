@@ -12,11 +12,12 @@ I am broadly interested in information theory and statistics with memory constra
 
 # Teaching
 
-**[Spring 2019]** I am a TA for MAT135B Stochastic Processes with Luis Rademacher.
+**[Fall 2019]** I am a TA for MAT12 Pre-Calculus with Korana Burke.
 
 # Recent academic work
 
-- **[Summer 2019]** I am working on an epidemiology project with Beatriz Lopez and James Sharpnack.
+- **[Fall 2019]** James presented our work on scan statistics epidemiology at GeoVet 2019. I am thinking about hierarchical communication again.
+- **[Summer 2019]** I am working on a project to apply scan statistics to epidemiology with Beatriz Lopez and James Sharpnack.
 - **[Spring 2019]** Our paper ["Estimating Graphlet Statistics via Lifting"](https://arxiv.org/abs/1802.08736) was accepted for a poster presentation at [KDD2019](https://www.kdd.org/kdd2019/)! Big thanks to Kiril Paramonov and James Sharpnack for the algorithm ideas.
 - **[Fall - Winter 2019]** I organized the reading group ["Information Theory and Statistics"](ITSRG.html) in the math department.
 - **[July 2018]** I gave a talk on ["Statistical Limits in Hierarchical Communication"](http://meetings.siam.org/sess/dsp_talk.cfm?p=94861) in the Student Chapter Presentations section at the [2018 SIAM Annual Meeting](https://www.siam.org/Conferences/CM/Main/an18) in Portland, Oregon.
@@ -29,4 +30,4 @@ I am broadly interested in information theory and statistics with memory constra
 
 General [non-work nerdery](personal.html).
 
-This page was last updated May 28th, 2019.
+This page was last updated Oct 9th, 2019.
