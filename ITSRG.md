@@ -1,3 +1,7 @@
+---
+layout: page
+permalink: /itsrg/
+---
 # Information Theory and Statistics Reading Group Meetings (2018 - 2019)
 
 ## Winter Quarter
