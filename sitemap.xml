@@ -9,6 +9,10 @@
 <lastmod>2019-10-11T03:49:00-07:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/2019/10/30/working-notes/</loc>
+<lastmod>2019-10-30T00:00:00-07:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/CV/</loc>
 </url>
 <url>
@@ -31,6 +35,15 @@
 </url>
 <url>
 <loc>http://localhost:4000/categories/update/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/categories/math/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/categories/research/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/categories/thesis/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/files/Discussion1Solutions.pdf</loc>
