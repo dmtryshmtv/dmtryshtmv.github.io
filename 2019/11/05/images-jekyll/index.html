@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  
+  
+  <title>Customizing Embedded Images with Jekyll</title>
+  <meta name="description" content="Something I anticipate doing in blog posts is embedding images. Using the standard ![alt-text](link-to-image-asset) construction, we can do a basic embedding. However, what if we want to modify the size or the centering properties of the image? The following instructions are based on the general information found here, but distilled for my specific usecase. To add HTML attributes and CSS classes we should do the following ![alt-text](link-to-image-asset){:attribute=&quot;value&quot; class=&quot;class-name&quot;}. In the specific case of resizing an image this would be ![alt-text](link-to-image-asset){:width=&quot;400px&quot; height=&quot;300px&quot;}. To add image alignment, we will have to modify our Jekyll theme with some custom CSS classes. This will vary for each theme, so check your theme’s documentation, but for the whiteglass theme, I had to make a new file main.scss in SITE-DIRECTORY/assets/ and fill it with the following: --- --- @import &quot;whiteglass&quot;; .image-centered { margin: 0 auto; display: block; } .image-right { padding: 10px; float: right; } .image-left { padding: 10px; float: left; } To elaborate a little, we added the front matter, imported the standard theme CSS, and then added custom CSS classes below to define groups of properties that we can now apply to images. So to embed a centered image, for example, we would write ![alt-text](link-to-image-asset){:class=&quot;image-centered&quot;}. Behold! The caption above brought to you by this method. Also alt-text is no longer the hover text; for hover text use the title attribute.">
+  
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon.ico">
+  <link rel="canonical" href="http://localhost:4000/2019/11/05/images-jekyll/">
+  
+  
+  <link rel="alternate" type="application/rss+xml" title="Dmitry Shemetov" href="http://localhost:4000/feed.xml">
+
+  
+
+  
+  <meta property="og:title" content="Customizing Embedded Images with Jekyll">
+  <meta property="og:site_name" content="Dmitry Shemetov">
+  <meta property="og:url" content="http://localhost:4000/2019/11/05/images-jekyll/">
+  <meta property="og:description" content="Something I anticipate doing in blog posts is embedding images. Using the standard ![alt-text](link-to-image-asset) construction, we can do a basic embedding. However, what if we want to modify the size or the centering properties of the image? The following instructions are based on the general information found here, but distilled for my specific usecase. To add HTML attributes and CSS classes we should do the following ![alt-text](link-to-image-asset){:attribute=&quot;value&quot; class=&quot;class-name&quot;}. In the specific case of resizing an image this would be ![alt-text](link-to-image-asset){:width=&quot;400px&quot; height=&quot;300px&quot;}. To add image alignment, we will have to modify our Jekyll theme with some custom CSS classes. This will vary for each theme, so check your theme’s documentation, but for the whiteglass theme, I had to make a new file main.scss in SITE-DIRECTORY/assets/ and fill it with the following: --- --- @import &quot;whiteglass&quot;; .image-centered { margin: 0 auto; display: block; } .image-right { padding: 10px; float: right; } .image-left { padding: 10px; float: left; } To elaborate a little, we added the front matter, imported the standard theme CSS, and then added custom CSS classes below to define groups of properties that we can now apply to images. So to embed a centered image, for example, we would write ![alt-text](link-to-image-asset){:class=&quot;image-centered&quot;}. Behold! The caption above brought to you by this method. Also alt-text is no longer the hover text; for hover text use the title attribute.">
+  
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:title" content="Customizing Embedded Images with Jekyll">
+  <meta name="twitter:description" content="Something I anticipate doing in blog posts is embedding images. Using the standard ![alt-text](link-to-image-asset) construction, we can do a basic embedding. However, what if we want to modify the...">
+  
+  
+
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css?family=Bitter:400,400i,700&display=swap" rel="stylesheet">
+
+  
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Dmitry Shemetov</a>
+
+    <nav class="site-nav">
+      
+        
+        <a class="page-link" href="/about/">About</a>
+      
+        
+        <a class="page-link" href="/blog/">Blog</a>
+      
+        
+        <a class="page-link" href="https://github.com/dshemetov/">GitHub</a>
+      
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    
+      <h1 class="post-title" itemprop="name headline">Customizing Embedded Images with Jekyll</h1>
+    
+    <p class="post-meta"><time datetime="2019-11-05T00:00:00-08:00" itemprop="datePublished">Nov 5, 2019</time>
+
+ •
+  
+    
+    
+      
+        <a href="/tags/jekyll/">jekyll</a>,
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+    
+    
+      
+    
+      
+        <a href="/tags/site/">site</a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+</p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>Something I anticipate doing in blog posts is embedding images. Using the standard <code class="highlighter-rouge">![alt-text](link-to-image-asset)</code> construction, we can do a basic embedding. However, what if we want to modify the size or the centering properties of the image?</p>
+
+<p>The following instructions are based on the general information found <a href="https://dev-notes.eu/2016/01/images-in-kramdown-jekyll/">here</a>, but distilled for my specific usecase.</p>
+
+<p>To add HTML attributes and CSS classes we should do the following <code class="highlighter-rouge">![alt-text](link-to-image-asset){:attribute="value" class="class-name"}</code>. In the specific case of resizing an image this would be <code class="highlighter-rouge">![alt-text](link-to-image-asset){:width="400px" height="300px"}</code>.</p>
+
+<p>To add image alignment, we will have to modify our Jekyll theme with some custom CSS classes. This will vary for each theme, so check your theme’s documentation, but for the <a href="https://github.com/yous/whiteglass#customization">whiteglass theme</a>, I had to make a new file <code class="highlighter-rouge">main.scss</code> in <code class="highlighter-rouge">SITE-DIRECTORY/assets/</code> and fill it with the following:</p>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">---</span>
+<span class="nt">---</span>
+<span class="k">@import</span> <span class="s1">"whiteglass"</span><span class="p">;</span>
+
+<span class="nc">.image-centered</span>
+<span class="p">{</span>
+    <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="nb">auto</span><span class="p">;</span>
+    <span class="nl">display</span><span class="p">:</span> <span class="nb">block</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.image-right</span> <span class="p">{</span>
+    <span class="nl">padding</span><span class="p">:</span> <span class="m">10px</span><span class="p">;</span>
+    <span class="nl">float</span><span class="p">:</span> <span class="nb">right</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.image-left</span> <span class="p">{</span>
+    <span class="nl">padding</span><span class="p">:</span> <span class="m">10px</span><span class="p">;</span>
+    <span class="nl">float</span><span class="p">:</span> <span class="nb">left</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>To elaborate a little, we added the front matter, imported the standard theme CSS, and then added custom CSS classes below to define groups of properties that we can now apply to images. So to embed a centered image, for example, we would write <code class="highlighter-rouge">![alt-text](link-to-image-asset){:class="image-centered"}</code>.</p>
+
+<p><img src="https://lh3.googleusercontent.com/qOgmWdrnL-6S1D2nJC2Znv975OldYHUQi_uZQJVQI2a5Ocsmw2GhrQMb8FFYDM4bQ7RGnQYuNIDlv8NPClGI5IJt_dZ8TW2ZbPiLA2OJq1b3SYsJ8zswOO23pUIJEVP8wRLEgxnY6Dao-H-w-x4COjbDOICEHzVFRx0e4wetSXtShEGU91biSXepwHh5YK9Q0_IVObvm0mXswNorodA68SYbEXOUYRpZLRM43tyaS-2OzxQznU0OhnaNXJom2wrXFOmaqRNFw_ihG22v-FMC20unHltR6ch80kPGnHy85mRlTN0or2kEHJxxoV7B3gmfDyCcIAoGWIPZukPh4swmC274HsNZt1FrXka6La74qqnWm1xDEKUvhO7JxUzxxSz5kOeCs8s8PGlOakoaJS9X6KlIDq3Cym4gKmK54bZNBxnyaeNtCXGqSfZPvM641rVW6v01g4sCJDhsH8HRGqIzsPU-tbWsWSont_Zkp163jEyKlKCZTmjBqUjhAah5DEAbIfJYZGiQMF5h5sLJeuXayrve_GRWOPvqjznMqWUi4hhqNhsbqyAEBO8TxooxYwTLJJ7JriN7qTUf1N77csIf07Le3Zxs3KEEDUijKNqoVcDaMN_HbItz1jKmZF70-S_Rw-1WOhsrs2Z7vgHflo7ZaXyfGZROiMe57MKKy8qdJiufn3VlttJ4H4M=w1984-h1340-no" alt="" class="image-centered" title="Pumps 2019" />
+<em>Behold!</em></p>
+
+<p>The caption above brought to you by <a href="https://stackoverflow.com/a/30366422">this</a> method. Also alt-text is no longer the hover text; for hover text use the title attribute.</p>
+
+  </div>
+
+  
+
+</article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <p>
+      
+
+&copy;  - Powered by <a href="https://jekyllrb.com">Jekyll</a> &amp; <a href="https://github.com/yous/whiteglass">whiteglass</a> - Subscribe via <a href="http://localhost:4000/feed.xml">RSS</a>
+
+    </p>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

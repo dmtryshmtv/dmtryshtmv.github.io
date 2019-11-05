@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  
+  
+  <title>Getting Started With Jekyll</title>
+  <meta name="description" content="So I am finally beginning to feel comfortable with the Jekyll workflow. Here I want to document all the pieces of the setup process in the case I migrate machines in the future. I will be assuming you are on Mac OS X, though you can probably follow along on Linux by substituting apt-get in place of brew. Install Ruby, Jekyll, and Bundler Following the procedures here, we install Ruby brew install ruby echo &#39;export PATH=&quot;/usr/local/opt/ruby/bin:$PATH&quot;&#39; &amp;gt;&amp;gt; ~/.zshrc and then install Jekyll. gem install --user-install bundler jekyll echo &quot;export PATH=$HOME/.gem/ruby/2.6.0/bin:$PATH&quot; &amp;gt;&amp;gt; ~/.zshrc Then we make a new blog jekyll new myblog cd myblog Install KaTeX, Scholar, Themes, and Other Plugins Add these lines into your Gemfile. group :jekyll_plugins do gem &quot;jekyll-feed&quot; gem &quot;jekyll-katex&quot; gem &quot;jekyll-scholar&quot; gem &quot;jekyll-whiteglass&quot; end then run bundle install Finally, add the KaTeX CSS and Fonts to your theme. We’re going to overwrite the theme’s default headers by making a _includes folder and adding custom code to our header.html. So do the following: mkdir _includes cd _includes vim header.html and then paste in &amp;lt;header class=&quot;site-header&quot;&amp;gt; &amp;lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css&quot; integrity=&quot;sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq&quot; crossorigin=&quot;anonymous&quot;&amp;gt; &amp;lt;div class=&quot;wrapper&quot;&amp;gt; &amp;lt;a class=&quot;site-title&quot; href=&quot;/&quot;&amp;gt;Dmitry Shemetov&amp;lt;/a&amp;gt; &amp;lt;nav class=&quot;site-nav&quot;&amp;gt; &amp;lt;a class=&quot;page-link&quot; href=&quot;/about/&quot;&amp;gt;About&amp;lt;/a&amp;gt; &amp;lt;a class=&quot;page-link&quot; href=&quot;/blog/&quot;&amp;gt;Blog&amp;lt;/a&amp;gt; &amp;lt;a class=&quot;page-link&quot; href=&quot;https://github.com/dshemetov/&quot;&amp;gt;GitHub&amp;lt;/a&amp;gt; &amp;lt;/nav&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/header&amp;gt; (If you are using a different theme, find your theme’s default header file, copy it to _includes, and add the katex.min.css part.) Finally, to use the scholar plugin create a _bibliography folder and put a references.bib in there mkdir _bibliography For KaTeX usage, see here, here, and here.">
+  
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon.ico">
+  <link rel="canonical" href="http://localhost:4000/2019/11/05/getting-started-with-jekyll/">
+  
+  
+  <link rel="alternate" type="application/rss+xml" title="Dmitry Shemetov" href="http://localhost:4000/feed.xml">
+
+  
+
+  
+  <meta property="og:title" content="Getting Started With Jekyll">
+  <meta property="og:site_name" content="Dmitry Shemetov">
+  <meta property="og:url" content="http://localhost:4000/2019/11/05/getting-started-with-jekyll/">
+  <meta property="og:description" content="So I am finally beginning to feel comfortable with the Jekyll workflow. Here I want to document all the pieces of the setup process in the case I migrate machines in the future. I will be assuming you are on Mac OS X, though you can probably follow along on Linux by substituting apt-get in place of brew. Install Ruby, Jekyll, and Bundler Following the procedures here, we install Ruby brew install ruby echo &#39;export PATH=&quot;/usr/local/opt/ruby/bin:$PATH&quot;&#39; &amp;gt;&amp;gt; ~/.zshrc and then install Jekyll. gem install --user-install bundler jekyll echo &quot;export PATH=$HOME/.gem/ruby/2.6.0/bin:$PATH&quot; &amp;gt;&amp;gt; ~/.zshrc Then we make a new blog jekyll new myblog cd myblog Install KaTeX, Scholar, Themes, and Other Plugins Add these lines into your Gemfile. group :jekyll_plugins do gem &quot;jekyll-feed&quot; gem &quot;jekyll-katex&quot; gem &quot;jekyll-scholar&quot; gem &quot;jekyll-whiteglass&quot; end then run bundle install Finally, add the KaTeX CSS and Fonts to your theme. We’re going to overwrite the theme’s default headers by making a _includes folder and adding custom code to our header.html. So do the following: mkdir _includes cd _includes vim header.html and then paste in &amp;lt;header class=&quot;site-header&quot;&amp;gt; &amp;lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css&quot; integrity=&quot;sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq&quot; crossorigin=&quot;anonymous&quot;&amp;gt; &amp;lt;div class=&quot;wrapper&quot;&amp;gt; &amp;lt;a class=&quot;site-title&quot; href=&quot;/&quot;&amp;gt;Dmitry Shemetov&amp;lt;/a&amp;gt; &amp;lt;nav class=&quot;site-nav&quot;&amp;gt; &amp;lt;a class=&quot;page-link&quot; href=&quot;/about/&quot;&amp;gt;About&amp;lt;/a&amp;gt; &amp;lt;a class=&quot;page-link&quot; href=&quot;/blog/&quot;&amp;gt;Blog&amp;lt;/a&amp;gt; &amp;lt;a class=&quot;page-link&quot; href=&quot;https://github.com/dshemetov/&quot;&amp;gt;GitHub&amp;lt;/a&amp;gt; &amp;lt;/nav&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/header&amp;gt; (If you are using a different theme, find your theme’s default header file, copy it to _includes, and add the katex.min.css part.) Finally, to use the scholar plugin create a _bibliography folder and put a references.bib in there mkdir _bibliography For KaTeX usage, see here, here, and here.">
+  
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:title" content="Getting Started With Jekyll">
+  <meta name="twitter:description" content="So I am finally beginning to feel comfortable with the Jekyll workflow. Here I want to document all the pieces of the setup process in the case I migrate machines in the future. I will be assuming ...">
+  
+  
+
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css?family=Bitter:400,400i,700&display=swap" rel="stylesheet">
+
+  
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Dmitry Shemetov</a>
+
+    <nav class="site-nav">
+      
+        
+        <a class="page-link" href="/about/">About</a>
+      
+        
+        <a class="page-link" href="/blog/">Blog</a>
+      
+        
+        <a class="page-link" href="https://github.com/dshemetov/">GitHub</a>
+      
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    
+      <h1 class="post-title" itemprop="name headline">Getting Started With Jekyll</h1>
+    
+    <p class="post-meta"><time datetime="2019-11-05T00:00:00-08:00" itemprop="datePublished">Nov 5, 2019</time>
+
+ •
+  
+    
+    
+      
+        <a href="/tags/jekyll/">jekyll</a>,
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+    
+    
+      
+    
+      
+        <a href="/tags/site/">site</a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+</p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>So I am finally beginning to feel comfortable with the Jekyll workflow. Here I want to document all the pieces of the setup process in the case I migrate machines in the future.</p>
+
+<p>I will be assuming you are on Mac OS X, though you can probably follow along on Linux by substituting <code class="highlighter-rouge">apt-get</code> in place of <code class="highlighter-rouge">brew</code>.</p>
+
+<h2 id="install-ruby-jekyll-and-bundler">Install Ruby, Jekyll, and Bundler</h2>
+<p>Following the procedures <a href="https://jekyllrb.com/docs/installation/macos/">here</a>, we install Ruby</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew install ruby
+echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' &gt;&gt; ~/.zshrc
+</code></pre></div></div>
+<p>and then install Jekyll.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem install --user-install bundler jekyll
+echo "export PATH=$HOME/.gem/ruby/2.6.0/bin:$PATH" &gt;&gt; ~/.zshrc
+</code></pre></div></div>
+<p>Then we make a new blog</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jekyll new myblog
+cd myblog
+</code></pre></div></div>
+
+<h2 id="install-katex-scholar-themes-and-other-plugins">Install KaTeX, Scholar, Themes, and Other Plugins</h2>
+<p>Add these lines into your <code class="highlighter-rouge">Gemfile</code>.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>group :jekyll_plugins do
+  gem "jekyll-feed"
+  gem "jekyll-katex"
+  gem "jekyll-scholar"
+  gem "jekyll-whiteglass"
+end
+</code></pre></div></div>
+<p>then run</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle install
+</code></pre></div></div>
+
+<p>Finally, add the KaTeX CSS and Fonts to your theme. We’re going to overwrite the theme’s default headers by making a <code class="highlighter-rouge">_includes</code> folder and adding custom code to our <code class="highlighter-rouge">header.html</code>. So do the following:</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mkdir _includes
+cd _includes
+vim header.html
+</code></pre></div></div>
+<p>and then paste in</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;header class="site-header"&gt;
+
+  &lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous"&gt;
+  &lt;div class="wrapper"&gt;
+
+    &lt;a class="site-title" href="/"&gt;Dmitry Shemetov&lt;/a&gt;
+
+    &lt;nav class="site-nav"&gt;
+      
+        
+        &lt;a class="page-link" href="/about/"&gt;About&lt;/a&gt;
+      
+        
+        &lt;a class="page-link" href="/blog/"&gt;Blog&lt;/a&gt;
+      
+        
+        &lt;a class="page-link" href="https://github.com/dshemetov/"&gt;GitHub&lt;/a&gt;
+      
+    &lt;/nav&gt;
+
+  &lt;/div&gt;
+
+&lt;/header&gt;
+</code></pre></div></div>
+<p>(If you are using a different theme, find your theme’s default header file, copy it to <code class="highlighter-rouge">_includes</code>, and add the <code class="highlighter-rouge">katex.min.css</code> part.)</p>
+
+<p>Finally, to use the scholar plugin create a <code class="highlighter-rouge">_bibliography</code> folder and put a <code class="highlighter-rouge">references.bib</code> in there</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mkdir _bibliography
+</code></pre></div></div>
+
+<p>For KaTeX usage, see <a href="/2019/10/10/welcome-to-jekyll/">here</a>, <a href="https://katex.org/docs/supported.html">here</a>, and <a href="https://github.com/linjer/jekyll-katex">here</a>.</p>
+
+  </div>
+
+  
+
+</article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <p>
+      
+
+&copy;  - Powered by <a href="https://jekyllrb.com">Jekyll</a> &amp; <a href="https://github.com/yous/whiteglass">whiteglass</a> - Subscribe via <a href="http://localhost:4000/feed.xml">RSS</a>
+
+    </p>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
