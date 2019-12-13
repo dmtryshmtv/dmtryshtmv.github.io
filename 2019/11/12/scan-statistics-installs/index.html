@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  
+  
+  <title>Installs for the Scan Statistics for Network Epidemics Project</title>
+  <meta name="description" content="I’m going to go from scratch, assuming you’re on Mac OS X. Install pyenv and virtualenv This will manage your python installations. brew install pyenv pyenv-virtualenv Install your desired python, which in this case is 3.7.3. pyenv install 3.7.3 Now navigate to your directory and create a new virtualenv for this directory. pyenv virtualenv network_analysis For future reference: pyenv stores its virtualenvs in: /.pyenv/versions/ pipenv stores them in: /.local/share/ Install the basics pip install numpy ipykernel scipy matplotlib scikit-learn networkx seaborn xlrd pillow blackcellmagic joblib netwulf pycodestyle Install basemap Warning: large download (80MBs). pip install git+https://github.com/matplotlib/basemap.git Install EoN You need to get the 1.0.9rc1 version or older, which wasn’t on PyPi. pip install git+https://github.com/springer-math/Mathematics-of-Epidemics-on-Networks.git Install this virtualenv as an IPython kernel in your (assumed existing) Jupyter installation python -m ipykernel install --user --name=network_analysis Install graph-tool on OS X with pipenv First install it on your machine using Brew (pip is unfortunately not available here, because graph-tool is a hybrid C++/Python package). brew install graph-tool Now this will install graph-tool into a Python that Brew deems best. Make sure that this is the same version as the one in your virtual-env. Next, we will want to symlink the graph-tool installation into your virtual-env installation (yes, this is awful and completely defeats the purpose of using pipenv, but these are the wonders of dev code without which life would be so much less fun :|). Use the directories here for a hint of where to go for the right directories (use pipenv –venv to find the virtual env directory). ln -s /usr/local/Cellar/graph-tool/2.29/lib/python3.7/site-packages/graph_tool/ ~/.pyenv/versions/network_analysis/lib/python3.7/site-packages We also need pycairo for drawing (comes with the brew installation). ln -s /usr/local/Cellar/py3cairo/1.18.1/lib/python3.7/site-packages/cairo/ ~/.pyenv/versions/network_analysis/lib/python3.7/site-packages">
+  
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon.ico">
+  <link rel="canonical" href="http://localhost:4000/2019/11/12/scan-statistics-installs/">
+  
+  
+  <link rel="alternate" type="application/rss+xml" title="Dmitry Shemetov" href="http://localhost:4000/feed.xml">
+
+  
+
+  
+  <meta property="og:title" content="Installs for the Scan Statistics for Network Epidemics Project">
+  <meta property="og:site_name" content="Dmitry Shemetov">
+  <meta property="og:url" content="http://localhost:4000/2019/11/12/scan-statistics-installs/">
+  <meta property="og:description" content="I’m going to go from scratch, assuming you’re on Mac OS X. Install pyenv and virtualenv This will manage your python installations. brew install pyenv pyenv-virtualenv Install your desired python, which in this case is 3.7.3. pyenv install 3.7.3 Now navigate to your directory and create a new virtualenv for this directory. pyenv virtualenv network_analysis For future reference: pyenv stores its virtualenvs in: /.pyenv/versions/ pipenv stores them in: /.local/share/ Install the basics pip install numpy ipykernel scipy matplotlib scikit-learn networkx seaborn xlrd pillow blackcellmagic joblib netwulf pycodestyle Install basemap Warning: large download (80MBs). pip install git+https://github.com/matplotlib/basemap.git Install EoN You need to get the 1.0.9rc1 version or older, which wasn’t on PyPi. pip install git+https://github.com/springer-math/Mathematics-of-Epidemics-on-Networks.git Install this virtualenv as an IPython kernel in your (assumed existing) Jupyter installation python -m ipykernel install --user --name=network_analysis Install graph-tool on OS X with pipenv First install it on your machine using Brew (pip is unfortunately not available here, because graph-tool is a hybrid C++/Python package). brew install graph-tool Now this will install graph-tool into a Python that Brew deems best. Make sure that this is the same version as the one in your virtual-env. Next, we will want to symlink the graph-tool installation into your virtual-env installation (yes, this is awful and completely defeats the purpose of using pipenv, but these are the wonders of dev code without which life would be so much less fun :|). Use the directories here for a hint of where to go for the right directories (use pipenv –venv to find the virtual env directory). ln -s /usr/local/Cellar/graph-tool/2.29/lib/python3.7/site-packages/graph_tool/ ~/.pyenv/versions/network_analysis/lib/python3.7/site-packages We also need pycairo for drawing (comes with the brew installation). ln -s /usr/local/Cellar/py3cairo/1.18.1/lib/python3.7/site-packages/cairo/ ~/.pyenv/versions/network_analysis/lib/python3.7/site-packages">
+  
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:title" content="Installs for the Scan Statistics for Network Epidemics Project">
+  <meta name="twitter:description" content="I’m going to go from scratch, assuming you’re on Mac OS X. Install pyenv and virtualenv This will manage your python installations. brew install pyenv pyenv-virtualenv Install your desired python, ...">
+  
+  
+
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css?family=Bitter:400,400i,700&display=swap" rel="stylesheet">
+
+  
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Dmitry Shemetov</a>
+
+    <nav class="site-nav">
+      
+        
+        <a class="page-link" href="/about/">About</a>
+      
+        
+        <a class="page-link" href="/blog/">Blog</a>
+      
+        
+        <a class="page-link" href="https://github.com/dshemetov/">GitHub</a>
+      
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    
+      <h1 class="post-title" itemprop="name headline">Installs for the Scan Statistics for Network Epidemics Project</h1>
+    
+    <p class="post-meta"><time datetime="2019-11-12T00:00:00-08:00" itemprop="datePublished">Nov 12, 2019</time>
+
+ •
+  
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <a href="/tags/research-software/">research-software</a>
+      
+    
+      
+    
+      
+    
+  
+
+</p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>I’m going to go from scratch, assuming you’re on Mac OS X.</p>
+
+<h2 id="install-pyenv-and-virtualenv">Install pyenv and virtualenv</h2>
+<p>This will manage your python installations.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew install pyenv pyenv-virtualenv
+</code></pre></div></div>
+
+<p>Install your desired python, which in this case is 3.7.3.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pyenv install 3.7.3
+</code></pre></div></div>
+
+<p>Now navigate to your directory and create a new virtualenv for this directory.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pyenv virtualenv network_analysis
+</code></pre></div></div>
+
+<p>For future reference:</p>
+<ul>
+  <li>pyenv stores its virtualenvs in: <code class="highlighter-rouge">/.pyenv/versions/</code></li>
+  <li>pipenv stores them in: <code class="highlighter-rouge">/.local/share/</code></li>
+</ul>
+
+<h2 id="install-the-basics">Install the basics</h2>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip install numpy ipykernel scipy matplotlib scikit-learn networkx seaborn xlrd pillow blackcellmagic joblib netwulf pycodestyle
+</code></pre></div></div>
+
+<h2 id="install-basemap">Install basemap</h2>
+<p>Warning: large download (80MBs).</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip install git+https://github.com/matplotlib/basemap.git
+</code></pre></div></div>
+
+<h2 id="install-eon">Install EoN</h2>
+<p>You need to get the 1.0.9rc1 version or older, which wasn’t on PyPi.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip install git+https://github.com/springer-math/Mathematics-of-Epidemics-on-Networks.git
+</code></pre></div></div>
+
+<h2 id="install-this-virtualenv-as-an-ipython-kernel-in-your-assumed-existing-jupyter-installation">Install this virtualenv as an IPython kernel in your (assumed existing) Jupyter installation</h2>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python -m ipykernel install --user --name=network_analysis
+</code></pre></div></div>
+
+<h2 id="install-graph-tool-on-os-x-with-pipenv">Install graph-tool on OS X with pipenv</h2>
+<p>First install it on your machine using Brew (pip is unfortunately not available here, because graph-tool is a hybrid C++/Python package).</p>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew <span class="nb">install </span>graph-tool
+</code></pre></div></div>
+
+<p>Now this will install graph-tool into a Python that Brew deems best. Make sure that this is the same version as the one in your virtual-env.</p>
+
+<p>Next, we will want to symlink the graph-tool installation into your virtual-env installation (yes, this is awful and completely defeats the purpose of using pipenv, but these are the wonders of dev code without which life would be so much less fun :|). Use the directories here for a hint of where to go for the right directories (use pipenv –venv to find the virtual env directory).</p>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">ln</span> <span class="nt">-s</span> /usr/local/Cellar/graph-tool/2.29/lib/python3.7/site-packages/graph_tool/ ~/.pyenv/versions/network_analysis/lib/python3.7/site-packages
+</code></pre></div></div>
+
+<p>We also need pycairo for drawing (comes with the brew installation).</p>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">ln</span> <span class="nt">-s</span> /usr/local/Cellar/py3cairo/1.18.1/lib/python3.7/site-packages/cairo/ ~/.pyenv/versions/network_analysis/lib/python3.7/site-packages
+</code></pre></div></div>
+
+  </div>
+
+  
+
+</article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <p>
+      
+
+&copy;  - Powered by <a href="https://jekyllrb.com">Jekyll</a> &amp; <a href="https://github.com/yous/whiteglass">whiteglass</a> - Subscribe via <a href="http://localhost:4000/feed.xml">RSS</a>
+
+    </p>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

@@ -10,7 +10,7 @@
   
   
   <title>Customizing Embedded Images with Jekyll</title>
-  <meta name="description" content="Something I anticipate doing in blog posts is embedding images. Using the standard ![alt-text](link-to-image-asset) construction, we can do a basic embedding. However, what if we want to modify the size or the centering properties of the image? The following instructions are based on the general information found here, but distilled for my specific usecase. To add HTML attributes and CSS classes we should do the following ![alt-text](link-to-image-asset){:attribute=&quot;value&quot; class=&quot;class-name&quot;}. In the specific case of resizing an image this would be ![alt-text](link-to-image-asset){:width=&quot;400px&quot; height=&quot;300px&quot;}. To add image alignment, we will have to modify our Jekyll theme with some custom CSS classes. This will vary for each theme, so check your theme’s documentation, but for the whiteglass theme, I had to make a new file main.scss in SITE-DIRECTORY/assets/ and fill it with the following: --- --- @import &quot;whiteglass&quot;; .image-centered { margin: 0 auto; display: block; } .image-right { padding: 10px; float: right; } .image-left { padding: 10px; float: left; } To elaborate a little, we added the front matter, imported the standard theme CSS, and then added custom CSS classes below to define groups of properties that we can now apply to images. So to embed a centered image, for example, we would write ![alt-text](link-to-image-asset){:class=&quot;image-centered&quot;}. Behold! The caption above brought to you by this method. Also alt-text is no longer the hover text; for hover text use the title attribute.">
+  <meta name="description" content="Something I anticipate doing in blog posts is embedding images. Using the standard ![alt-text](link-to-image-asset) construction, we can do a basic embedding. However, what if we want to modify the size or the centering properties of the image? The following instructions are based on the general information found here, but distilled for my specific usecase. To add HTML attributes and CSS classes we should do the following ![alt-text](link-to-image-asset){:attribute=&quot;value&quot; class=&quot;class-name&quot;}. In the specific case of resizing an image this would be ![alt-text](link-to-image-asset){:width=&quot;400px&quot; height=&quot;300px&quot;}. To add image alignment, we will have to modify our Jekyll theme with some custom CSS classes. This will vary for each theme, so check your theme’s documentation, but for the whiteglass theme, I had to make a new file main.scss in SITE-DIRECTORY/assets/ and fill it with the following: --- --- @import &quot;whiteglass&quot;; .image-centered { margin: 0 auto; display: block; } .image-right { padding: 10px; float: right; } .image-left { padding: 10px; float: left; } To elaborate a little, we added the front matter, imported the standard theme CSS, and then added custom CSS classes below to define groups of properties that we can now apply to images. So to embed a centered image, for example, we would write ![alt-text](link-to-image-asset){:class=&quot;image-centered&quot;}. Behold! The caption above brought to you by this method. Also alt-text is not the hover text; for hover text use the title attribute.">
   
 
   <link rel="stylesheet" href="/assets/main.css">
@@ -26,7 +26,7 @@
   <meta property="og:title" content="Customizing Embedded Images with Jekyll">
   <meta property="og:site_name" content="Dmitry Shemetov">
   <meta property="og:url" content="http://localhost:4000/2019/11/05/images-jekyll/">
-  <meta property="og:description" content="Something I anticipate doing in blog posts is embedding images. Using the standard ![alt-text](link-to-image-asset) construction, we can do a basic embedding. However, what if we want to modify the size or the centering properties of the image? The following instructions are based on the general information found here, but distilled for my specific usecase. To add HTML attributes and CSS classes we should do the following ![alt-text](link-to-image-asset){:attribute=&quot;value&quot; class=&quot;class-name&quot;}. In the specific case of resizing an image this would be ![alt-text](link-to-image-asset){:width=&quot;400px&quot; height=&quot;300px&quot;}. To add image alignment, we will have to modify our Jekyll theme with some custom CSS classes. This will vary for each theme, so check your theme’s documentation, but for the whiteglass theme, I had to make a new file main.scss in SITE-DIRECTORY/assets/ and fill it with the following: --- --- @import &quot;whiteglass&quot;; .image-centered { margin: 0 auto; display: block; } .image-right { padding: 10px; float: right; } .image-left { padding: 10px; float: left; } To elaborate a little, we added the front matter, imported the standard theme CSS, and then added custom CSS classes below to define groups of properties that we can now apply to images. So to embed a centered image, for example, we would write ![alt-text](link-to-image-asset){:class=&quot;image-centered&quot;}. Behold! The caption above brought to you by this method. Also alt-text is no longer the hover text; for hover text use the title attribute.">
+  <meta property="og:description" content="Something I anticipate doing in blog posts is embedding images. Using the standard ![alt-text](link-to-image-asset) construction, we can do a basic embedding. However, what if we want to modify the size or the centering properties of the image? The following instructions are based on the general information found here, but distilled for my specific usecase. To add HTML attributes and CSS classes we should do the following ![alt-text](link-to-image-asset){:attribute=&quot;value&quot; class=&quot;class-name&quot;}. In the specific case of resizing an image this would be ![alt-text](link-to-image-asset){:width=&quot;400px&quot; height=&quot;300px&quot;}. To add image alignment, we will have to modify our Jekyll theme with some custom CSS classes. This will vary for each theme, so check your theme’s documentation, but for the whiteglass theme, I had to make a new file main.scss in SITE-DIRECTORY/assets/ and fill it with the following: --- --- @import &quot;whiteglass&quot;; .image-centered { margin: 0 auto; display: block; } .image-right { padding: 10px; float: right; } .image-left { padding: 10px; float: left; } To elaborate a little, we added the front matter, imported the standard theme CSS, and then added custom CSS classes below to define groups of properties that we can now apply to images. So to embed a centered image, for example, we would write ![alt-text](link-to-image-asset){:class=&quot;image-centered&quot;}. Behold! The caption above brought to you by this method. Also alt-text is not the hover text; for hover text use the title attribute.">
   
   
   <meta name="twitter:card" content="summary">
@@ -100,6 +100,8 @@
     
       
     
+      
+    
   
     
     
@@ -107,6 +109,8 @@
     
       
         <a href="/tags/site/">site</a>
+      
+    
       
     
       
@@ -153,10 +157,10 @@
 
 <p>To elaborate a little, we added the front matter, imported the standard theme CSS, and then added custom CSS classes below to define groups of properties that we can now apply to images. So to embed a centered image, for example, we would write <code class="highlighter-rouge">![alt-text](link-to-image-asset){:class="image-centered"}</code>.</p>
 
-<p><img src="https://lh3.googleusercontent.com/qOgmWdrnL-6S1D2nJC2Znv975OldYHUQi_uZQJVQI2a5Ocsmw2GhrQMb8FFYDM4bQ7RGnQYuNIDlv8NPClGI5IJt_dZ8TW2ZbPiLA2OJq1b3SYsJ8zswOO23pUIJEVP8wRLEgxnY6Dao-H-w-x4COjbDOICEHzVFRx0e4wetSXtShEGU91biSXepwHh5YK9Q0_IVObvm0mXswNorodA68SYbEXOUYRpZLRM43tyaS-2OzxQznU0OhnaNXJom2wrXFOmaqRNFw_ihG22v-FMC20unHltR6ch80kPGnHy85mRlTN0or2kEHJxxoV7B3gmfDyCcIAoGWIPZukPh4swmC274HsNZt1FrXka6La74qqnWm1xDEKUvhO7JxUzxxSz5kOeCs8s8PGlOakoaJS9X6KlIDq3Cym4gKmK54bZNBxnyaeNtCXGqSfZPvM641rVW6v01g4sCJDhsH8HRGqIzsPU-tbWsWSont_Zkp163jEyKlKCZTmjBqUjhAah5DEAbIfJYZGiQMF5h5sLJeuXayrve_GRWOPvqjznMqWUi4hhqNhsbqyAEBO8TxooxYwTLJJ7JriN7qTUf1N77csIf07Le3Zxs3KEEDUijKNqoVcDaMN_HbItz1jKmZF70-S_Rw-1WOhsrs2Z7vgHflo7ZaXyfGZROiMe57MKKy8qdJiufn3VlttJ4H4M=w1984-h1340-no" alt="" class="image-centered" title="Pumps 2019" />
+<p><img src="/assets/pumps2019.jpg" alt="" class="image-centered" title="Pumps 2019" />
 <em>Behold!</em></p>
 
-<p>The caption above brought to you by <a href="https://stackoverflow.com/a/30366422">this</a> method. Also alt-text is no longer the hover text; for hover text use the title attribute.</p>
+<p>The caption above brought to you by <a href="https://stackoverflow.com/a/30366422">this</a> method. Also alt-text is <a href="https://www.computerhope.com/issues/ch001076.htm">not the hover text</a>; for hover text use the title attribute.</p>
 
   </div>
 
